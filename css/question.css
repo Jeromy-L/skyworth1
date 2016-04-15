@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: linear-gradient(to bottom,#fff,rgb(178,178,178));
+}
+.navbar-a{
+	color: white;
+	background-color:#212121;
+	font-color:white;
+
+
+}
+
+.nav-stacked >li:hover{
+  background-color: #FBE9E7;
+  color: #FF561C;
+  
+}
+.nav-stacked >li >a:hover{
+  background-color: #FBE9E7;
+  color: #FF561C;
+}
+.navbar-nav >li > a:hover{
+	background-color: #212121;
+}
+
+.main{
+	margin-top: 100px;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	padding-left: 0;
+	padding-right: 0;
+	width: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#submain{
+	box-shadow: 3px 3px 3px #888888;
+	padding: 30px;
+	padding-left: 60px;
+	padding-right: 60px;
+	background-color: #fff;
+}
+#submain img{
+	width: 100%;
+
+}
+#submain ul{
+	margin-top: 30px;
+
+}
+#submain .question{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin-bottom: 10px;
+
+}
+#submain ul{
+	padding-left: 0;
+}
+#submain h2{
+	font-family: "Microsoft Yahei";
+	font-size: 16px;
+	margin-top: 0;
+	color: rgb(0,64,128);
+	left: 0;
+}
+#submain a{
+	font-size: 10px;
+	color: rgb(0,64,128);
+	text-decoration: none;
+	cursor: pointer;
+	right: 0;
+}
+
+#submain div{
+	display: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 20px;
+}

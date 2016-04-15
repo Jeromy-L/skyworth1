@@ -1,0 +1,167 @@
+.background{
+  
+  background-color: #EEEEEE;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  font-family: "RobotoDraft","Roboto",sans-serif;
+}
+#footer {
+    clear: both;
+    padding-top: 6px;
+    border-top: 1px solid #e5e5e5;
+    display: block;
+    height: 60px; 
+    bottom: 0 ;
+    text-align: center;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: #212121;
+    box-shadow:  0 -4px 8px 0 rgba(0, 0, 0, 0.1);
+    
+}
+#footer p > span{
+  cursor: pointer;
+  left: 30%;
+  top: 20px;
+
+}
+
+.navbar-a{
+  color: white;
+  background-color:#212121;
+  font-color:white;
+  
+
+}
+
+.nav >li > a:hover{
+  background-color: #212121;
+  
+}
+.nav-tool{
+  color: white;
+  
+
+}
+.nav-tool:hover{
+  color:#737373;
+  
+}
+#video-box{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  height: auto;
+  color: black;
+  font-family: Sans-serif,Helvetica;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#video{
+  position: relative;
+}
+#video video{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#video video:hover{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 8px 30px 0 rgba(0, 0, 0, 0.1);
+}
+.video-title{
+  color: #6CBB70;
+
+}
+.inner-text{
+  height: 150px;
+  font-size:18px;
+  line-height: 32px;
+  padding-top:20px;
+  word-wrap: break-word;
+  position: relative;
+  letter-spacing: 3px;
+}
+.tab{
+  border-left:5px solid;
+  padding-left: 20px;
+  border-left-color: #6CBB70 
+}
+.tab h1{
+  font-size: 15px;
+  line-height: 16px;
+  padding-bottom: 12px;
+  color: #757575;
+}
+.tab ul{
+  list-style: none;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 3px;
+  color: #6CBB70 ;
+}
+.img-box{
+  height: auto;
+  padding-top: 20px;
+  letter-spacing: 3px;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.img{
+  height: auto;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.img-box .img p{
+  word-wrap: break-word;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+.img-1{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.img-1:hover{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 8px 30px 0 rgba(0, 0, 0, 0.1);
+}
+.img-gal{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  height: auto;
+  letter-spacing: 3px;
+  border-top: 1px solid;
+  border-top-color: #E0E0E0;
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.img-2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.img-2:hover{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 8px 30px 0 rgba(0, 0, 0, 0.1);
+}
+.text{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.text1{
+  padding-bottom: 30px;
+  
+}
+#h-1,#h-2,#h-3{
+  padding-top: 30px;
+}
+#h-1:hover,#h-2:hover,#h-3:hover{
+  box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 8px 30px 0 rgba(0, 0, 0, 0.1);
+}
+.carousel-control {
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 30px;
+      margin-top: 60px;
+    
+}
+
+#myCarousel{
+
+      box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding-bottom: 30px;
+}

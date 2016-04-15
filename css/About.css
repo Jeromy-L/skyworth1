@@ -1,0 +1,117 @@
+*{margin: 0;padding: 0;}
+.background{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right:0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+.navbar-a{
+	color: white;
+	background-color:#212121;
+	font-color:white;
+}
+.nav-stacked >li:hover{
+  background-color: #FBE9E7;
+  color: #FF561C; 
+}
+.nav-stacked >li >a:hover{
+  background-color: #FBE9E7;
+  color: #FF561C;
+}
+.navbar-nav >li > a:hover{
+	background-color: #212121;
+}
+.nav-tool{
+	color: white;	
+}
+.nav-tool:hover{
+	color:#737373;	
+}
+
+.box{
+	padding-top: 80px;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: auto;
+	color: black;
+}
+#li{
+	display: -webkit-box;
+	display: flex;
+	justify-content: space-between;
+	-webkit-justify-content:space-between;
+	flex-flow: row wrap;
+	-webkit-flex-flow: row wrap;
+}
+.box li{
+	border-radius: 5px;
+	list-style-type: none;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.img{
+	width: 100%;
+	
+	overflow: hidden;
+}
+img{
+	width: 100%;
+}
+.text{margin-top: 10px;margin-left: 20px;margin-right: 10px;vertical-align: middle;}
+.text span{display: block;}
+.box li:hover{  
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 8px 30px 0 rgba(0, 0, 0, 0.1);
+}
+@media only screen and (min-width: 1871px){
+	.box li{
+		width:350px;height:430px;
+	}
+}
+@media only screen and (max-width: 1870px){
+	.box li{
+		width:300px;height:400px;
+	}
+}
+@media only screen and (max-width: 1189px){
+	.box li{
+		width:250px;height:350px;
+	}
+}
+
+@media only screen and (max-width: 1020px){
+	.box li{
+		width:210px;height:320px;
+	}
+	.text{font-size: 13px;}
+}
+@media only screen and (max-width: 900px){
+	.box li{
+		width:280px;height:360px;
+	}
+	.text{font-size: 12px;}
+}
+
+@media only screen and (max-width: 740px){
+	.box li{
+		width: 250px;height: 360px;
+		margin: 15px auto;
+	}
+	.text{margin-top:10px;font-size: 14px;}
+}
+@media only screen and (max-width: 640px){
+	.box li{
+		width: 400px;height: 480px;
+		margin: 15px auto;
+	}
+	.text{margin-top:10px;font-size: 14px;}
+}
+@media only screen and (max-width: 500px){
+	.box li{
+		width: 200px;height: 320px;
+		margin: 15px auto;
+	}
+	.text{margin-top:10px;font-size: 14px;}
+}
